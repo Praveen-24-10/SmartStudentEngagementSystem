@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Search Student</title>
+
+    <link rel="stylesheet"
+          href="css/style.css">
+</head>
+
+<body>
+
+    <h1>🔍 Search Student</h1>
+
+    <div class="container">
+
+        <div class="card">
+
+            <h2>Search Student</h2>
+
+            <input
+                type="number"
+                id="studentId"
+                placeholder="Enter Student ID">
+
+            <button id="searchBtn">
+                Search
+            </button>
+
+        </div>
+
+        <div class="card">
+
+            <h2>👨‍🎓 Student Details</h2>
+
+            <p>
+                <strong>ID:</strong>
+                <span id="studentIdResult">-</span>
+            </p>
+
+            <p>
+                <strong>Name:</strong>
+                <span id="studentNameResult">-</span>
+            </p>
+
+            <p>
+                <strong>Email:</strong>
+                <span id="emailResult">-</span>
+            </p>
+
+            <p>
+                <strong>Classes Attended:</strong>
+                <span id="attendedResult">-</span>
+            </p>
+
+            <p>
+                <strong>Classes Missed:</strong>
+                <span id="missedResult">-</span>
+            </p>
+
+            <p>
+                <strong>Attendance %:</strong>
+                <span id="attendancePercentageResult">-</span>
+            </p>
+
+        </div>
+
+    </div>
+
+    <div class="navigation">
+
+        <a href="dashboard.html"
+           class="btn">
+            ⬅ Back to Dashboard
+        </a>
+
+    </div>
+
+    <script src="js/searchstudent.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Student Engagement Dashboard</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+    <div class="header">
+
+        <h1>
+            🎓 Student Engagement Dashboard
+        </h1>
+
+        <p class="subtitle">
+            Smart Student Engagement Monitoring System
+        </p>
+
+    </div>
+
+    <div class="container">
+
+        <div class="card total-card">
+            <h2>Total Students</h2>
+            <p id="totalStudents">0</p>
+        </div>
+
+        <div class="card">
+            <h2>Attendance Records</h2>
+            <p id="attendanceRecords">0</p>
+        </div>
+
+        <div class="card">
+            <h2>Engagement Records</h2>
+            <p id="engagementRecords">0</p>
+        </div>
+
+        <div class="card">
+            <h2>🟢 Attentive Events</h2>
+            <p id="attentiveCount">0</p>
+        </div>
+
+        <div class="card">
+            <h2>🔴 Distracted Events</h2>
+            <p id="distractedCount">0</p>
+        </div>
+
+        <div class="card">
+            <h2>Today's Status</h2>
+            <p id="todayStatus">Loading...</p>
+        </div>
+
+        <div class="card rate-card">
+            <h2>Attendance Rate</h2>
+            <p id="attendanceRate">0%</p>
+        </div>
+
+        <div class="card present-card">
+            <h2>✅ Present Today</h2>
+            <p id="presentToday">0</p>
+        </div>
+
+        <div class="card absent-card">
+            <h2>❌ Absent Today</h2>
+            <p id="absentToday">0</p>
+        </div>
+
+    </div>
+
+    <div class="chart-container">
+
+        <h2>📊 Attendance Overview</h2>
+
+        <canvas id="attendanceChart"></canvas>
+
+    </div>
+
+    <div class="navigation">
+
+        <a href="students.html" class="btn">
+            👨‍🎓 Student Registration
+        </a>
+
+        <a href="attendance_history.html" class="btn">
+            📋 Attendance History
+        </a>
+
+        <a href="searchstudent.html" class="btn">
+            🔍 Search Student
+        </a>
+
+        <a href="attendance.html" class="btn">
+            ✅ Attendance Status
+        </a>
+
+        <a href="index.html" class="btn">
+            🏠 Home
+        </a>
+
+    </div>
+
+    <footer class="footer">
+
+        © 2026 Smart Student Engagement Monitoring System
+
+    </footer>
+
+    <script src="js/dashboard.js"></script>
+
+</body>
+</html>
