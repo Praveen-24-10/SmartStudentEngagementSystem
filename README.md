@@ -441,10 +441,19 @@ using Live Server in Visual Studio Code.
 Add screenshots of:
 
 * Dashboard
+  <img width="1277" height="800" alt="image" src="https://github.com/user-attachments/assets/b6b1ea8f-3777-425a-903c-2d3e17ddd451" />
+
 * Student Registration
+  <img width="1259" height="462" alt="image" src="https://github.com/user-attachments/assets/203a7d89-c3e2-4cb7-ba9b-4333319f1ed1" />
+
 * Student Search
+  <img width="1231" height="747" alt="image" src="https://github.com/user-attachments/assets/8bcb85f0-6e0b-4d15-a499-198604880af9" />
+
 * Attendance History
+  <img width="1250" height="765" alt="image" src="https://github.com/user-attachments/assets/1edc839c-aa27-4e35-a179-d9edf81e73e1" />
+
 * Attendance Status
+  <img width="1256" height="560" alt="image" src="https://github.com/user-attachments/assets/46e20229-2c9b-471e-9875-981b738830e7" />
 
 ---
 
